@@ -8,3 +8,62 @@
     color: variables.$red;
   }
 }
+
+.button {
+  font-weight: 700;
+  background-color: variables.$cyan;
+  color: variables.$white;
+  border: 1px solid transparent;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: variables.$cyan-hover;
+  }
+}
+
+.container {
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  background: url("../public/illustration-working.svg") no-repeat;
+  background-position-x: 115%;
+}
+
+.containerHeading {
+  padding-right: 51%;
+
+  p {
+    color: variables.$grayish-violet;
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  margin-bottom: 6rem;
+  gap: 2rem;
+
+  a {
+    text-decoration: none;
+    color: variables.$grayish-violet;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+
+    &:hover {
+      color: variables.$dark-violet;
+    }
+  }
+
+  a:nth-last-child(2) {
+    margin-left: auto;
+  }
+}

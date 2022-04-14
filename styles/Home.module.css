@@ -6,4 +6,58 @@
   color: #f46262;
 }
 
+.button {
+  font-weight: 700;
+  background-color: #2acfcf;
+  color: white;
+  border: 1px solid transparent;
+  transition: background 0.2s;
+}
+.button:hover {
+  background-color: rgba(42, 207, 207, 0.5);
+}
+
+.container {
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  background: url("../public/illustration-working.svg") no-repeat;
+  background-position-x: 115%;
+}
+
+.containerHeading {
+  padding-right: 51%;
+}
+.containerHeading p {
+  color: #9e9aa7;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  margin-bottom: 6rem;
+  gap: 2rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: #9e9aa7;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+.navbar a:hover {
+  color: #3b3054;
+}
+.navbar a:nth-last-child(2) {
+  margin-left: auto;
+}
+
 /*# sourceMappingURL=Home.module.css.map */

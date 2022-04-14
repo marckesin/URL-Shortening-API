@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  line-height: normal;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins", sans-serif;
 }
@@ -45,6 +45,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  margin-bottom: 0;
 }
 
 #root,

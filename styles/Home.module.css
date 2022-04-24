@@ -25,13 +25,37 @@
   background-position-x: 115%;
 }
 
-.containerHeading {
+.section1 {
   padding-right: 51%;
 }
-.containerHeading p {
+.section1 p {
   color: #9e9aa7;
   font-size: 1.15rem;
   margin-bottom: 2rem;
+}
+
+.section2 {
+  text-align: center;
+  background-color: #eff0f5;
+}
+.section2 h2 {
+  color: #35323e;
+  font-weight: 700;
+}
+.section2 p {
+  color: #9e9aa7;
+}
+
+.containerInput {
+  height: 8rem;
+  margin: auto;
+  padding: 2.5rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background: url("../public/bg-shorten-desktop.svg") no-repeat, #3b3054;
+  background-size: cover;
 }
 
 .heading {
